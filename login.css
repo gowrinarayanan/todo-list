@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+/* body{
+        background-image: url("imgs/pexels-polina-kovaleva-5717411.jpg");
+        background-size:cover;
+
+} */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    height: auto;
+    
+}
+
+.form{
+    /* border: 2px solid blue; */
+    background-color: rgba(0, 0, 0, .6);
+    width: 30%;
+    padding: 30px;
+    height: auto;
+    color: azure;
+    border-radius: 25px;
+    box-shadow: 10px 15px 20px darkslategrey;
+}
+
+
+@media screen and (max-width:780px) {
+    .form{
+        width: 100%;
+    }
+    
+}

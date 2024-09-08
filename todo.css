@@ -1,0 +1,20 @@
+.container {
+    padding: 20px;
+    background-image: url("imgs/pexels-knownasovan-62693.jpg");
+}
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    
+}
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imgs/bgbg.jpg);
+    background-size:centre;
+}
